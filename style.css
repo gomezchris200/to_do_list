@@ -1,0 +1,74 @@
+
+body {
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+  background-color: #E7F2F8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input[type=checkbox]{
+  height: 40px;
+  width: 40px;
+  float: left;
+  cursor: pointer;
+  accent-color: #FFA384;
+}
+
+textarea {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  max-width: 90%;
+  width: 500px;
+  height: 55px;
+  overflow: auto;
+  background-color: #EFE7BC;
+}
+
+input[type=checkbox]:checked + textarea{
+  text-decoration: line-through;
+}
+
+
+#creationButton {
+  display: inline-block;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #EFE7BC;
+}
+
+#headerText {
+  display: inline-block;
+  margin: 20px 100px 20px 20px;
+}
+
+#header {
+  height: 100px;
+  background-color: #FFA384;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+#noteContainer {
+  position: relative;
+  margin-top: 150px;
+}
+
+.deleteButton {
+  vertical-align: top;
+  width: 35px;
+  height: 35px;
+  background-color: #FFA384;
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+}
